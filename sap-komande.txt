@@ -24,8 +24,3 @@ ADRSTREET - registar ulica
 ADRC - podaci o adresama
 ADR2 - podaci o broju telefona
 ADR6 - mail adresa
-
-
-SAP WEB
-
-ZRSSERV_PRO - RS SBB Service Pro
