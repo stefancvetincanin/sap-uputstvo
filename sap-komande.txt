@@ -8,6 +8,7 @@ SU01 - otkljucavanje korisnika
 SPPFP - misteriozna transakcija
 SPRO - koristimo za nalazenje code groupa, preko Sap reference-a, a cemu zaista sluzi...
 LSMW - sistem za unosenje podataka u sap ciji je izvor van sapa, izmedju ostalog se koristi za dodavanje adresa i postal kodova
+PPOSA_CRM - Organizaciona struktura
 
 SE38 Programi
 
@@ -23,3 +24,8 @@ ADRSTREET - registar ulica
 ADRC - podaci o adresama
 ADR2 - podaci o broju telefona
 ADR6 - mail adresa
+
+
+SAP WEB
+
+ZRSSERV_PRO - RS SBB Service Pro
