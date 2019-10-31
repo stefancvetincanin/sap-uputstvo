@@ -1,0 +1,9 @@
+Uci u /sapcnd/gcm - odrzavanje uvjeta.
+
+Application: crm, maintenance group: zprod_prov.
+
+Traziti prema opciji, product ID-u, ili previous productu, zavisno od potrebe.
+Za nove opcije, kopirati postojecu i promeniti cenu i produkte.
+Za postojece opcije, naci staru, kopirati, izmeniti po potrebi i obrisati staru.
+
+Za cene ispod 0 stavlja se rs5 umesto rsd.
