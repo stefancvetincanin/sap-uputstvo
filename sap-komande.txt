@@ -1,0 +1,25 @@
+SM37 - pregled pozadinskih procesa
+SE38 - pokretanje programa
+CRM_UI - pokretanje Sap-a u webu
+ZMIG_011 - dodavanje popusta
+COMMPR01 - prikaz proizvoda (npr PP)
+ZCRM_REP999 - veza account/transaction
+SU01 - otkljucavanje korisnika
+SPPFP - misteriozna transakcija
+SPRO - koristimo za nalazenje code groupa, preko Sap reference-a, a cemu zaista sluzi...
+LSMW - sistem za unosenje podataka u sap ciji je izvor van sapa, izmedju ostalog se koristi za dodavanje adresa i postal kodova
+
+SE38 Programi
+
+zcrm_turn_off_add_on - gasenje dodataka
+ZCRM_CHANGE_BP_UPL_FROM_EXC_V2 - promena default adrese
+ZCRM_CHANGE_BP_UPL_FROM_EXC_V3 - promena bill-to adrese
+
+Tabele
+
+SE16 - sve tabele (samo prikaz, pravilo da se ne menja)
+
+ADRSTREET - registar ulica
+ADRC - podaci o adresama
+ADR2 - podaci o broju telefona
+ADR6 - mail adresa
