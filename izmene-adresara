@@ -1,5 +1,24 @@
 Izmene adresara:
 ----------------------
 Koristimo SE38 programe:
- - ZCRM_CHANGE_BP_UPL_FROM_EXC_V2 - promena default adrese
+ - ZCRM_CHANGE_BP_UPL_FROM_EXC_V2 - promena default adrese,
  - ZCRM_CHANGE_BP_UPL_FROM_EXC_V3 - promena bill-to adrese
+
+Preko transakcije SE16 imamo pregled tabela, koje koristimo za nalazenje:
+ - ADRSTREET - kodovi ulica
+ U kom slucaju nadjemo najvisu koriscenu i dodajemo sledecu slobodnu u slucaju dodavanja ulica.
+ - ADRC - podaci o adresama,
+ - ADR2 - podaci o brojevima telefona,
+ - ADR6 - podaci o e-mail adresama
+ 
+Kada raspisemo kodove dodamo ih u template za unos adresa. 
+Adrese unosimo preko LSMW transakcije, podesavanja za nju su sledeca:
+ - project: ZADDR,
+ - subproject: ZADDR_01,
+ - object:  - ZADDR_0602_PT2 - za izmenu postanskog broja,
+            - ZADDR_0602_ST2 - za izmenu postanskog ulice.
+            
+Potom se ispunjava par obaveznih koraka, od kojih je jedini slozeniji unos adrese fajla na kom su nam adrese, ostali su dosta automatski.
+Zadnji korak - Start direct input - mora se odabrati varianta:
+ - POST_VAR22 - za unos postal koda
+ - POST_VAR33 - za unos ulice
