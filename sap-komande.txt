@@ -9,6 +9,8 @@ SPPFP - misteriozna transakcija
 SPRO - koristimo za nalazenje code groupa, preko Sap reference-a, a cemu zaista sluzi...
 LSMW - sistem za unosenje podataka u sap ciji je izvor van sapa, izmedju ostalog se koristi za dodavanje adresa i postal kodova
 PPOSA_CRM - Organizaciona struktura
+CRMD_ORDER - pregled svih transakcija u Sap-u
+PFAC - odrzavanje i simulacija rule-ova
 
 SE38 Programi
 
