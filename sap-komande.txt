@@ -12,6 +12,8 @@ PPOSA_CRM - Organizaciona struktura
 CRMD_ORDER - pregled svih transakcija u Sap-u
 PFAC - odrzavanje i simulacija rule-ova
 Z_ALLOW_NEW_CO - omogucava otvaranje novog CO-a na nalogu koji ima neki problem koji to sprecava
+ZCRM_REP016 - pregled poslovnih partnera
+SM12 - tabela lockova
 
 SE38 Programi
 
@@ -28,3 +30,7 @@ ADRSTREET - registar ulica
 ADRC - podaci o adresama
 ADR2 - podaci o broju telefona
 ADR6 - mail adresa
+ZSO_CHANGE_LOG - gde se mogu pratiti pozivi koji su dosli iz fione, a nisu uspesno azurirani nalozi
+
+SE37:
+ZCRM_UPDATE_ZRVR_TECH_RES - ?
