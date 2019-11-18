@@ -1,0 +1,10 @@
+Rad sa servisnim nalozima
+
+Kreiranje konfirmacija za radne naloge se radi preko SPPFP transakcije.
+1. Action definition: ZMA5_CREATE_CONFIRMATION
+2. Application key: broj radnog naloga/service order
+3. Action status: 0
+4. Processed at: prazno
+
+Kad se izvrsi akcija, onda se preko Web-a udje na zeljeni radni nalog, i pod Confirmations nadje i udje u novokreiranu konfirmaciju. 
+Istu editovati i staviti status u completed.
