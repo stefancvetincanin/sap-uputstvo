@@ -17,20 +17,20 @@ SM12 - tabela lockova
 
 SE38 Programi
 
-zcrm_turn_off_add_on - gasenje dodataka
-ZCRM_CHANGE_BP_UPL_FROM_EXC_V2 - promena default adrese
-ZCRM_CHANGE_BP_UPL_FROM_EXC_V3 - promena bill-to adrese
-ZCRM_UPDATE_ZCRM_IST_LOCK - sredjivanje lock reda kod brace makedonaca, VMRO
+-ZCRM_TURN_OFF_ADD_ON - gasenje dodataka
+-ZCRM_CHANGE_BP_UPL_FROM_EXC_V2 - promena default adrese
+-ZCRM_CHANGE_BP_UPL_FROM_EXC_V3 - promena bill-to adrese
+-ZCRM_UPDATE_ZCRM_IST_LOCK - sredjivanje lock reda kod brace makedonaca, VMRO
 
 Tabele
 
 SE16 - sve tabele (samo prikaz, pravilo da se ne menja)
 
-ADRSTREET - registar ulica
-ADRC - podaci o adresama
-ADR2 - podaci o broju telefona
-ADR6 - mail adresa
-ZSO_CHANGE_LOG - gde se mogu pratiti pozivi koji su dosli iz fione, a nisu uspesno azurirani nalozi
+ - ADRSTREET - registar ulica
+ - ADRC - podaci o adresama
+ - ADR2 - podaci o broju telefona
+ - ADR6 - mail adresa
+ - ZSO_CHANGE_LOG - gde se mogu pratiti pozivi koji su dosli iz fione, a nisu uspesno azurirani nalozi
 
-SE37:
-ZCRM_UPDATE_ZRVR_TECH_RES - ?
+SE37 - FUNCTION BUILDER:
+ - ZCRM_UPDATE_ZRVR_TECH_RES - ?
