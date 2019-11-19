@@ -1,6 +1,9 @@
 Pojmovi:
 
-Servis orderi pocinju na 70, service requestovi na 40, provider ili change orderi na 79, activity-ji ili aktivnosti (sve prethodnici service requestu, evidencija interakcije sa korisnikom) 101 (10 karaktera), 89 je transakcija (provider contract), a contract account pocinje na mnogo razlicitih cifara, zavisno od regiona i od datuma stvaranja accounta, ali najcesce na 9 ili 1, i uvek ima 9 cifara.
+Servis orderi pocinju na 70, service requestovi na 40, provider ili change orderi na 79, activity-ji ili aktivnosti 
+(sve prethodnici service requestu, evidencija interakcije sa korisnikom) 101 (10 karaktera), 89 je transakcija 
+(provider contract), a contract account pocinje na mnogo razlicitih cifara, zavisno od regiona i od datuma stvaranja 
+accounta, ali najcesce na 9 ili 1, i uvek ima 9 cifara.
 
 Rad sa servisnim nalozima
 
