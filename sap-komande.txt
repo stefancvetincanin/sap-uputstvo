@@ -1,19 +1,20 @@
-SM37 - pregled pozadinskih procesa
-SE38 - pokretanje programa
-CRM_UI - pokretanje Sap-a u webu
-ZMIG_011 - dodavanje popusta
-COMMPR01 - prikaz proizvoda (npr PP)
-ZCRM_REP999 - veza account/transaction
-SU01 - otkljucavanje korisnika
-SPPFP - misteriozna transakcija
-SPRO - koristimo za nalazenje code groupa, preko Sap reference-a, a cemu zaista sluzi...
-LSMW - sistem za unosenje podataka u sap ciji je izvor van sapa, izmedju ostalog se koristi za dodavanje adresa i postal kodova
-PPOSA_CRM - Organizaciona struktura
-CRMD_ORDER - pregled svih transakcija u Sap-u
-PFAC - odrzavanje i simulacija rule-ova
-Z_ALLOW_NEW_CO - omogucava otvaranje novog CO-a na nalogu koji ima neki problem koji to sprecava
-ZCRM_REP016 - pregled poslovnih partnera
-SM12 - tabela lockova
+-SM37 - pregled pozadinskih procesa
+-SE38 - pokretanje programa
+-CRM_UI - pokretanje Sap-a u webu
+-ZMIG_011 - dodavanje popusta
+-COMMPR01 - prikaz proizvoda (npr PP)
+-ZCRM_REP999 - veza account/transaction
+-SU01 - otkljucavanje korisnika
+-SPPFP - misteriozna transakcija
+-SPRO - koristimo za nalazenje code groupa, preko Sap reference-a, a cemu zaista sluzi...
+-LSMW - sistem za unosenje podataka u sap ciji je izvor van sapa, izmedju ostalog se koristi za dodavanje adresa i postal kodova
+-PPOSA_CRM - Organizaciona struktura
+-CRMD_ORDER - pregled svih transakcija u Sap-u
+-PFAC - odrzavanje i simulacija rule-ova
+-Z_ALLOW_NEW_CO - omogucava otvaranje novog CO-a na nalogu koji ima neki problem koji to sprecava
+-ZCRM_REP016 - pregled poslovnih partnera
+-SM12 - tabela lockova
+-ZCRM_UG_PREGLED - pregled statusa u sapu
 
 SE38 Programi
 
@@ -33,4 +34,4 @@ SE16 - sve tabele (samo prikaz, pravilo da se ne menja)
  - ZSO_CHANGE_LOG - gde se mogu pratiti pozivi koji su dosli iz fione, a nisu uspesno azurirani nalozi
 
 SE37 - FUNCTION BUILDER:
- - ZCRM_UPDATE_ZRVR_TECH_RES - ?
+ - ZCRM_UPDATE_ZRVR_TECH_RES - brisanje (ili dodavanje) tehnickih resursa sa sap-a
