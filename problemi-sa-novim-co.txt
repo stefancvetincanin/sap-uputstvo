@@ -1,0 +1,26 @@
+Problemi sa pokretanjem novog change ordera:
+
+Cancellovanje CO-a:
+U Gui-u staviti da CO bude open, i svi Itemi (rp-i i sl) da budu in process.
+
+Kad nestanu procesi:
+Proveriti da li postoji stavka Tech. Activ. na itemima ugovora najnovijeg slajsa (u Gui-u). 
+Kad se dodaju moze malo potrajati dok se ne pojave.
+
+Ako ne prolazi fulfillment:
+Zatvoriti CO preko GUI-a.
+
+Ako se radi na tek pristiglom CO-u, koji ima greske u konfiguraciji i u statusu je sales agent finished, 
+kad se otklone greske na ugovoru i CO, vratiti ga na test i reci da nastave.
+
+Prethodni CO stoji completed,  a oprema pogresno unesena (duplikati):
+U ovom slucaju je verovatno i stanje na ugovor pogresno preneseno.
+Otvoriti CO (status: open), izbrisati pogresnu opremu, sales completed -> Submit. Postaviti status na 
+provisioning, For Provisioning -> Submit.
+Ponoviti radnju za Fulfillment preko SPPFP (ne rucno) pa submit.
+
+Ako CO stoji status completed, a lifecycle In Process:
+Ukoliko je editabilan probati prvo submit na CO-u da li ce da zavrsi posao.
+
+Mozda: Ako u novom CO pise pogresan PP:
+Proveriti da nema neki stari nezatvoreni CO u kom je radni nalog otkazan a CO nije.
