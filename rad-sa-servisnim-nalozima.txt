@@ -5,7 +5,13 @@ Servis orderi pocinju na 70, service requestovi na 40, provider ili change order
 (provider contract), a contract account pocinje na mnogo razlicitih cifara, zavisno od regiona i od datuma stvaranja 
 accounta, ali najcesce na 9 ili 1, i uvek ima 9 cifara.
 
-Rad sa servisnim nalozima
+Dodeljivanje GST-ova:
+
+Dodeljivanje GST-a servisnom nalogu se odredjuje preko atributa u organizacionoj strukturi. Da bi SO uopste dosao na fionu, i dobio ZMA umesto ZNA, mora da ispunjava uslove za to. A cim ispunjava te uslove, morao bi i GST da dobije, a zasto ne dobija, to je misterija.
+
+Rad sa servisnim nalozima:
+
+Obratiti paznju na PLAN013 SO-ove i o njima informisati Anu!
 
 Kreiranje konfirmacija za radne naloge se radi preko SPPFP transakcije.
 1. Action definition: ZMA5_CREATE_CONFIRMATION
