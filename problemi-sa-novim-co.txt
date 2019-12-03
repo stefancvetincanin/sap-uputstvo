@@ -1,7 +1,9 @@
 Problemi sa pokretanjem novog change ordera:
 
 Z_ALLOW_NEW_CO - transakcija koja treba da omoguci otvaranje novog CO-a.
-Kad gornja transakcija ne ispravi problem, potrebno je proveriti u change orderu da li je nesto blokiralo finaliziranje ordera pri prethodnom izvrsavanju (kao npr da li je neko bio na nalogu i time ga zakljucao). Tada je potrebno ponoviti order fulfillment ako je vec bio incorrect. Jos jedan clue je ako u lifecycle-u CO-a stoji da je i dalje u procesu a ne kompletiran.
+Kad gornja transakcija ne ispravi problem, potrebno je proveriti u change orderu da li je nesto blokiralo finaliziranje ordera 
+pri prethodnom izvrsavanju (kao npr da li je neko bio na nalogu i time ga zakljucao). Tada je potrebno ponoviti order fulfillment 
+ako je vec bio incorrect. Jos jedan clue je ako u lifecycle-u CO-a stoji da je i dalje u procesu a ne kompletiran.
 
 Cancellovanje CO-a:
 U Gui-u staviti da CO bude open, i svi Itemi (rp-i i sl) da budu in process.
