@@ -15,6 +15,13 @@
 -ZCRM_REP016 - pregled poslovnih partnera
 -SM12 - tabela lockova
 -ZCRM_UG_PREGLED - pregled statusa u sapu
+-SM12 - tabela lockova
+-SM04 - koristimo za pregled sesija po korisniku (samo na trenutnom serveru)
+-SM51 - promena servera na kome smo zbog pregleda sessiona korisnika
+-ZLOCK_RP_OUT_ZLCK - masivno iskljucivanje korisnika po RP-ovima
+-SQ01 - pregled query-a
+-Z_REP_Z090 - pregled akcija za aktivaciju na rec - provisioninzi
+-ST22 - ABAP runtime errors - pregled gresaka pozadinskih procesa
 
 SE38 Programi
 
@@ -22,6 +29,10 @@ SE38 Programi
 -ZCRM_CHANGE_BP_UPL_FROM_EXC_V2 - promena default adrese
 -ZCRM_CHANGE_BP_UPL_FROM_EXC_V3 - promena bill-to adrese
 -ZCRM_UPDATE_ZCRM_IST_LOCK - sredjivanje lock reda kod brace makedonaca, VMRO
+-ZCRM_ZRLC_STATUS_CORRECTION - program za vracanje procesa kada na ugovoru nema greske
+-ZCRM_ZRLC_ADD_PREVIOUS_PROD - unosenje previous producta
+-BSP_DLC_DELETE_PERSONALIZATION - brisanje personalizovanih layout-a po useru
+-ZCRM_CHECK_DISTRIBUTION_STATUS - provera da li je ugovor lockovan zbog nekih provera
 
 Tabele
 
@@ -32,6 +43,21 @@ SE16 - sve tabele (samo prikaz, pravilo da se ne menja)
  - ADR2 - podaci o broju telefona
  - ADR6 - mail adresa
  - ZSO_CHANGE_LOG - gde se mogu pratiti pozivi koji su dosli iz fione, a nisu uspesno azurirani nalozi
+ - CRMD_TC_LOCK - tabela gde se cuvaju lock statusi
+ - zcrmt_ist_lock - tabela iz koje se najnoviji unos za svaki rate plan salje na TCRM sa statusnim kodom (e0009 ili e0006) da odredi da li da ukljuci provisioning ili ne.
+ - ZPP_DIGITAL_MAP - digitalni parnjaci (za mass7 proces - digitalni parnjak za svaki analogni paket)
+ - BALHDR - tabela gresaka
+ - zcrm_imp_al_bil - tabela sa pregledom koji billing PDF-ovi su importovani
+ - z090_activity - pregled activity-a za ukljucenja na rec
 
 SE37 - FUNCTION BUILDER:
  - ZCRM_UPDATE_ZRVR_TECH_RES - brisanje (ili dodavanje) tehnickih resursa sa sap-a
+ 
+Queries
+
+SQ01:
+- ZIST_CA_STATUS - recimo daje pregled raznoraznih statusa na ugovorima
+
+R3/ERP Komande
+
+FBL5N - dugovanja korisnika (izmedju ostalog)
